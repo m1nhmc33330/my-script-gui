@@ -170,4 +170,8 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
     end)
     -- hub script
     local hubscript = Window:NewTab("hubscript")
-    local hubscriptsection = hubscript:NewSection("i will do this later just waiting")
+    local hubscriptsection = hubescript:NewSection("hubscript")
+
+    hubscriptsection:NewButton("i will do it later", "nothing here get out", function()
+
+    end)
