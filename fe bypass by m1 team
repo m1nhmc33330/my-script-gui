@@ -168,10 +168,23 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
     OtherScriptSection:NewButton("r6 to r15 fe", "you cant use your script", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/r6%20to%20r15"))()
     end)
+    
+    OtherScriptSection:NewButton("first person visible", "for fun", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/first%20person"))
+    end)
+    
     -- hub script
     local hubscript = Window:NewTab("hubscript")
-    local hubscriptsection = hubescript:NewSection("hubscript")
+    local hubscriptsection = hubscript:NewSection("it not by me lol")
 
-    hubscriptsection:NewButton("i will do it later", "nothing here get out", function()
+    hubscriptsection:NewButton("blade ball script", "made by someone", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blade%20ball"))()
+    end)
 
+    hubscriptsection:NewButton("blox fruit chest farm", "made by someone", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blox%20fruit%20chest%20farm"))()
+    end)
+
+    hubscriptsection:NewButton("blox fruit auto farm", "memaybeo", function()
+       loadstring9game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blox%20fruit")()
     end)
