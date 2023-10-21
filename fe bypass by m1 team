@@ -170,7 +170,7 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
     end)
     
     OtherScriptSection:NewButton("first person visible", "for fun", function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/first%20person"))
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/first%20person"))()
     end)
     
     -- hub script
@@ -186,5 +186,5 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
     end)
 
     hubscriptsection:NewButton("blox fruit auto farm", "memaybeo", function()
-       loadstring9game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blox%20fruit")()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blox%20fruit"))()
     end)
