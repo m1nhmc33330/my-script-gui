@@ -198,7 +198,7 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
     end)
 
     hubscriptsection:NewButton("slap battle", "slap everyone you hate", function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/slap%20battle"))()
+       loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
     end)
 
     hubscriptsection:NewButton("doors script", "from yt lol", function()
