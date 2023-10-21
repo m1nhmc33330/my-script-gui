@@ -173,6 +173,10 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
        loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/first%20person"))()
     end)
     
+    OtherScriptSection:NewButton("keyboard", "for help mobile become computer", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+    end)
+
     -- hub script
     local hubscript = Window:NewTab("hubscript")
     local hubscriptsection = hubscript:NewSection("it not by me lol")
@@ -187,4 +191,16 @@ local Window = Library.CreateLib("Fe bypass by m1 team", "Ocean")
 
     hubscriptsection:NewButton("blox fruit auto farm", "memaybeo", function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/blox%20fruit"))()
+    end)
+
+    hubscriptsection:NewButton("intruder script", "i am the best right?", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/intruder"))()
+    end)
+
+    hubscriptsection:NewButton("slap battle", "slap everyone you hate", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/slap%20battle"))()
+    end)
+
+    hubscriptsection:NewButton("doors script", "from yt lol", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/m1nhmc33330/script/main/doors%20script"))()
     end)
